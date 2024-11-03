@@ -19,7 +19,7 @@ class Config:
 
   mpi_define  = "-D_MPI"       # should be -D_MPI for mpi code and empty for serial code.
   pcc         = "mpicc"        # C compiler
-  pcxx        = "mpicxx"       # C++ compiler
+  pcxx        = "mpiicpc"       # C++ compiler
   pfc         = "mpiifort"       # Fortran compiler
 
   blasname    = "MKL"             # BLAS   library
